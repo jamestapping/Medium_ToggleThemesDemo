@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DCE209F276C81E700C1C30B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE209E276C81E700C1C30B /* AppDelegate.swift */; };
+		7DCE20A1276C81E700C1C30B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE20A0276C81E700C1C30B /* SceneDelegate.swift */; };
+		7DCE20A6276C81E700C1C30B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCE20A4276C81E700C1C30B /* Main.storyboard */; };
+		7DCE20A8276C81EA00C1C30B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCE20A7276C81EA00C1C30B /* Assets.xcassets */; };
+		7DCE20AB276C81EA00C1C30B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCE20A9276C81EA00C1C30B /* LaunchScreen.storyboard */; };
+		7DCE20B6276C848800C1C30B /* UserInterfaceStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE20B5276C848800C1C30B /* UserInterfaceStyleManager.swift */; };
+		7DCE20B8276C849F00C1C30B /* UserInterfaceStyleObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE20B7276C849F00C1C30B /* UserInterfaceStyleObserver.swift */; };
+		7DCE20BA276C84A900C1C30B /* WeakStyleObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE20B9276C84A900C1C30B /* WeakStyleObserver.swift */; };
+		7DCE20BC276C851900C1C30B /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE20BB276C851900C1C30B /* MyTabBarController.swift */; };
+		7DCE20BF276C855400C1C30B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE20BE276C855400C1C30B /* Helper.swift */; };
+		7DCE20C1276C8B7200C1C30B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE20C0276C8B7200C1C30B /* MainViewController.swift */; };
+		7DCE20C3276C8B8800C1C30B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE20C2276C8B8800C1C30B /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DCE209B276C81E700C1C30B /* Medium - toggle dark light mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medium - toggle dark light mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DCE209E276C81E700C1C30B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DCE20A0276C81E700C1C30B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7DCE20A5276C81E700C1C30B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DCE20A7276C81EA00C1C30B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DCE20AA276C81EA00C1C30B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DCE20AC276C81EA00C1C30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DCE20B5276C848800C1C30B /* UserInterfaceStyleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInterfaceStyleManager.swift; sourceTree = "<group>"; };
+		7DCE20B7276C849F00C1C30B /* UserInterfaceStyleObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInterfaceStyleObserver.swift; sourceTree = "<group>"; };
+		7DCE20B9276C84A900C1C30B /* WeakStyleObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakStyleObserver.swift; sourceTree = "<group>"; };
+		7DCE20BB276C851900C1C30B /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		7DCE20BE276C855400C1C30B /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		7DCE20C0276C8B7200C1C30B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7DCE20C2276C8B8800C1C30B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DCE2098276C81E700C1C30B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DCE2092276C81E700C1C30B = {
+			isa = PBXGroup;
+			children = (
+				7DCE209D276C81E700C1C30B /* Medium - toggle dark light mode */,
+				7DCE209C276C81E700C1C30B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DCE209C276C81E700C1C30B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DCE209B276C81E700C1C30B /* Medium - toggle dark light mode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DCE209D276C81E700C1C30B /* Medium - toggle dark light mode */ = {
+			isa = PBXGroup;
+			children = (
+				7DCE20B4276C844A00C1C30B /* Supporting Files */,
+				7DCE20BD276C853F00C1C30B /* Helper */,
+				7DCE20B2276C840700C1C30B /* Observer */,
+				7DCE20B3276C843200C1C30B /* Views */,
+				7DCE20A4276C81E700C1C30B /* Main.storyboard */,
+				7DCE20A7276C81EA00C1C30B /* Assets.xcassets */,
+				7DCE20A9276C81EA00C1C30B /* LaunchScreen.storyboard */,
+				7DCE20AC276C81EA00C1C30B /* Info.plist */,
+			);
+			path = "Medium - toggle dark light mode";
+			sourceTree = "<group>";
+		};
+		7DCE20B2276C840700C1C30B /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				7DCE20B5276C848800C1C30B /* UserInterfaceStyleManager.swift */,
+				7DCE20B7276C849F00C1C30B /* UserInterfaceStyleObserver.swift */,
+				7DCE20B9276C84A900C1C30B /* WeakStyleObserver.swift */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		7DCE20B3276C843200C1C30B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DCE20C0276C8B7200C1C30B /* MainViewController.swift */,
+				7DCE20C2276C8B8800C1C30B /* SettingsViewController.swift */,
+				7DCE20BB276C851900C1C30B /* MyTabBarController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7DCE20B4276C844A00C1C30B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DCE20A0276C81E700C1C30B /* SceneDelegate.swift */,
+				7DCE209E276C81E700C1C30B /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DCE20BD276C853F00C1C30B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7DCE20BE276C855400C1C30B /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DCE209A276C81E700C1C30B /* Medium - toggle dark light mode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DCE20AF276C81EA00C1C30B /* Build configuration list for PBXNativeTarget "Medium - toggle dark light mode" */;
+			buildPhases = (
+				7DCE2097276C81E700C1C30B /* Sources */,
+				7DCE2098276C81E700C1C30B /* Frameworks */,
+				7DCE2099276C81E700C1C30B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Medium - toggle dark light mode";
+			productName = "Medium - toggle dark light mode";
+			productReference = 7DCE209B276C81E700C1C30B /* Medium - toggle dark light mode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DCE2093276C81E700C1C30B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					7DCE209A276C81E700C1C30B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 7DCE2096276C81E700C1C30B /* Build configuration list for PBXProject "Medium - toggle dark light mode" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DCE2092276C81E700C1C30B;
+			productRefGroup = 7DCE209C276C81E700C1C30B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DCE209A276C81E700C1C30B /* Medium - toggle dark light mode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DCE2099276C81E700C1C30B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DCE20AB276C81EA00C1C30B /* LaunchScreen.storyboard in Resources */,
+				7DCE20A8276C81EA00C1C30B /* Assets.xcassets in Resources */,
+				7DCE20A6276C81E700C1C30B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DCE2097276C81E700C1C30B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DCE20B8276C849F00C1C30B /* UserInterfaceStyleObserver.swift in Sources */,
+				7DCE209F276C81E700C1C30B /* AppDelegate.swift in Sources */,
+				7DCE20BA276C84A900C1C30B /* WeakStyleObserver.swift in Sources */,
+				7DCE20B6276C848800C1C30B /* UserInterfaceStyleManager.swift in Sources */,
+				7DCE20A1276C81E700C1C30B /* SceneDelegate.swift in Sources */,
+				7DCE20BC276C851900C1C30B /* MyTabBarController.swift in Sources */,
+				7DCE20BF276C855400C1C30B /* Helper.swift in Sources */,
+				7DCE20C1276C8B7200C1C30B /* MainViewController.swift in Sources */,
+				7DCE20C3276C8B8800C1C30B /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DCE20A4276C81E700C1C30B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DCE20A5276C81E700C1C30B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DCE20A9276C81EA00C1C30B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DCE20AA276C81EA00C1C30B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DCE20AD276C81EA00C1C30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DCE20AE276C81EA00C1C30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DCE20B0276C81EA00C1C30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z395QVG78R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Medium - toggle dark light mode/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamestapping.darklightmodetoggle.Medium---toggle-dark-light-mode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DCE20B1276C81EA00C1C30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z395QVG78R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Medium - toggle dark light mode/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamestapping.darklightmodetoggle.Medium---toggle-dark-light-mode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DCE2096276C81E700C1C30B /* Build configuration list for PBXProject "Medium - toggle dark light mode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DCE20AD276C81EA00C1C30B /* Debug */,
+				7DCE20AE276C81EA00C1C30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DCE20AF276C81EA00C1C30B /* Build configuration list for PBXNativeTarget "Medium - toggle dark light mode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DCE20B0276C81EA00C1C30B /* Debug */,
+				7DCE20B1276C81EA00C1C30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DCE2093276C81E700C1C30B /* Project object */;
+}

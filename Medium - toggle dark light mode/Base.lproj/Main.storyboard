@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kVj-6a-96a">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Settings-->
+        <scene sceneID="Vqt-Gw-sWe">
+            <objects>
+                <viewController id="blN-bK-fvN" customClass="SettingsViewController" customModule="Medium___toggle_dark_light_mode" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9EL-16-aD8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6TL-WJ-iFc">
+                                <rect key="frame" x="108.5" y="432.5" width="197" height="32"/>
+                                <segments>
+                                    <segment title="System"/>
+                                    <segment title="Light"/>
+                                    <segment title="Dark"/>
+                                </segments>
+                                <connections>
+                                    <action selector="themeChoiceDidChange:" destination="blN-bK-fvN" eventType="valueChanged" id="7dx-dV-u7p"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5rp-gc-E92"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6TL-WJ-iFc" firstAttribute="centerX" secondItem="9EL-16-aD8" secondAttribute="centerX" id="4VT-Lt-mgl"/>
+                            <constraint firstItem="6TL-WJ-iFc" firstAttribute="centerY" secondItem="9EL-16-aD8" secondAttribute="centerY" id="MIc-J0-igN"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gearshape" catalog="system" selectedImage="gearshape.fill" id="yhn-zp-YvC"/>
+                    <connections>
+                        <outlet property="themeChoice" destination="6TL-WJ-iFc" id="5DI-IM-BJB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uNY-NL-7Om" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="325" y="87"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="Enq-35-Av0">
+            <objects>
+                <viewController id="C1m-1b-T9d" customClass="MainViewController" customModule="Medium___toggle_dark_light_mode" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ugn-3a-PiJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Goto Settings to toggle theme" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tqZ-tz-F8l">
+                                <rect key="frame" x="44.5" y="433.5" width="325" height="29.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="z0W-A9-3ty"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tqZ-tz-F8l" firstAttribute="centerY" secondItem="ugn-3a-PiJ" secondAttribute="centerY" id="PKL-Zw-A2m"/>
+                            <constraint firstItem="tqZ-tz-F8l" firstAttribute="centerX" secondItem="ugn-3a-PiJ" secondAttribute="centerX" id="lef-F3-f81"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Main" image="paperplane" catalog="system" selectedImage="paperplane.fill" id="Xm4-xA-Mfu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9lL-YB-XXm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="326" y="-658"/>
+        </scene>
+        <!--My Tab Bar Controller-->
+        <scene sceneID="57h-QF-0bd">
+            <objects>
+                <tabBarController id="kVj-6a-96a" customClass="MyTabBarController" customModule="Medium___toggle_dark_light_mode" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tLt-cZ-TJe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="C1m-1b-T9d" kind="relationship" relationship="viewControllers" id="C4j-Ky-EhF"/>
+                        <segue destination="blN-bK-fvN" kind="relationship" relationship="viewControllers" id="tQx-A4-9vP"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TPB-4J-tXa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1058" y="-640"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gearshape" catalog="system" width="128" height="121"/>
+        <image name="gearshape.fill" catalog="system" width="128" height="121"/>
+        <image name="paperplane" catalog="system" width="128" height="118"/>
+        <image name="paperplane.fill" catalog="system" width="128" height="118"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
